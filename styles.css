@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+body {
+  font-family: sans-serif;
+  background-color: #f3f3f3;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+}
+.welcome {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  font-size: 20px;
+  font-weight: 20%;
+}
+.log-in-inputs {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+.input-type {
+  height: 40px;
+  width: 30%;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid #fff;
+  opacity: 1;
+  font-size: 15px;
+  margin: 10px;
+}
+.input-type:focus {
+  outline: 0;
+}
+.login-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.login-btn:active {
+  transform: scale(0.98);
+}
+.main-content {
+  opacity: 0;
+}
+.balance {
+  display: flex;
+  position: absolute;
+  top: 13%;
+  left: 20%;
+  height: 90px;
+  width: 60%;
+  padding: 20px;
+  font-size: 18px;
+}
+.curr-date {
+  position: absolute;
+  margin-top: -10px;
+  font-size: 15px;
+  color: #888;
+}
+.total-amount {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  font-size: 40px;
+}
+.bottom-content {
+  position: absolute;
+  top: 32%;
+  left: 20%;
+  display: flex;
+}
+
+/* bottom- left */
+
+.bottom-left {
+  background-color: #fff;
+  width: 500px;
+  height: 460px;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: scroll;
+  text-align: center;
+}
+.movements-row {
+  position: relative;
+  padding: 30px;
+  display: flex;
+  height: 30px;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+.movements-type-deposit {
+  background-image: linear-gradient(to top left, #39b385, #9be15d);
+  height: 20px;
+  width: 20%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.movements-type-withdraw {
+  background-image: linear-gradient(to top left, #e52a5a, #ff585f);
+  height: 20px;
+  padding: 10px;
+  width: 23%;
+  border-radius: 10px;
+  font-size: 13px;
+}
+.movements-date {
+  position: absolute;
+  left: 35%;
+  font-size: 10px;
+}
+.movements-money {
+  position: absolute;
+  right: 50px;
+}
+
+/* bottom-right */
+
+.transfer-money {
+  background-image: linear-gradient(to top left, #ffb003, #ffcb03);
+  padding: 1rem;
+  border-radius: 18px;
+  height: 25%;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  width: 80%;
+  font-size: 18px;
+}
+.request-loan {
+  background-image: linear-gradient(to top left, #39b385, #9be15d);
+  padding: 1rem;
+  border-radius: 18px;
+  height: 25%;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  width: 80%;
+  font-size: 18px;
+}
+.close-account {
+  background-image: linear-gradient(to top left, #e52a5a, #ff585f);
+  padding: 1rem;
+  border-radius: 18px;
+  height: 25%;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  width: 80%;
+  font-size: 18px;
+}
+.form-input {
+  color: #000;
+  height: 30px;
+  width: 40%;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.form-input:focus {
+  outline: 0;
+}
+label {
+  font-size: 15px;
+  margin: 35px;
+}
+.btn {
+  width: 40px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 12px;
+  border: none;
+}

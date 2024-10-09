@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Phir Hera pheri bank</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Welcome section -->
+    <nav>
+      <p class="welcome">Log in to get Started</p>
+      <form class="log-in-inputs">
+        <input class="input-type input-user" type="text" placeholder="User" />
+        <input class="input-type input-Pin" type="password" placeholder="Pin" />
+        <button class="login-btn">&rarr;</button>
+      </form>
+    </nav>
+
+    <main class="main-content">
+      <!-- date and total amount -->
+      <div class="balance">
+        <div>
+          <p>Current Balance</p>
+          <p class="curr-date">
+            As of <span class="currDate">O5/04/2022</span>
+          </p>
+        </div>
+        <div class="total-amount">
+          <p class="total-value">25400,67 USD</p>
+        </div>
+      </div>
+
+      <!-- Transaction-History -->
+      <div class="bottom-content">
+        <div class="bottom-left">
+          <div class="movements-row">
+            <div class="movements-type movements-type-deposit">2 deposit</div>
+            <div class="movements-date">04/05/22</div>
+            <div class="movements-money">300$</div>
+          </div>
+          <div class="movements-row">
+            <div class="movements-type movements-type-withdraw">
+              1 withdrawl
+            </div>
+            <div class="movements-date">04/06/22</div>
+            <div class="movements-money">500$</div>
+          </div>
+        </div>
+
+        <!-- transfer-money  -->
+        <div class="bottom-right">
+          <div class="transfer-money">
+            <p>Transfer-money</p>
+            <form class="transfer-money-inputs">
+              <input class="form-input form-input-to" type="text" />
+              <input class="form-input form-input-amount" type="text" />
+              <button class="btn form-btn-transfer">
+                &rarr;
+              </button>
+            </form>
+            <label>Tranfer to</label>
+            <label>Amount</label>
+          </div>
+          <div class="request-loan">
+            <p>Request loan</p>
+            <form class="loan-inputs">
+              <input class="form-input loan-amount" type="text" />
+              <button class="btn btn-loan">&rarr;</button>
+            </form>
+            <label>Amount</label>
+          </div>
+          <div class="close-account">
+            <p>Close account</p>
+            <form class="account-inputs">
+              <input class="form-input confirm-user" type="text" />
+              <input
+                class="form-input confirm-pin"
+                maxlength="6"
+                type="password"
+              />
+              <button class="btn btn-close">&rarr;</button>
+            </form>
+            <label>confirm user</label>
+            <label>confirm pin</label>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
